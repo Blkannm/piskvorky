@@ -26,3 +26,6 @@ def Id_piskvorky():
 
 Id_piskvorky()
 tah_hrace()
+
+
+# zmnena
