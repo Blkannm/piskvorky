@@ -29,3 +29,4 @@ tah_hrace()
 
 
 # zmnena
+# zmena 2 t
