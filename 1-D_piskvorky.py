@@ -1,31 +1,29 @@
 from random import randrange
 
-def tah(cislo_policka, symbol):
-    pole = 20*"-"   
+def tah(pole, cislo_policka, symbol): 
     zacatek_pole = pole[:cislo_policka]
     konec_pole = pole[1+cislo_policka:]
-    ukazka_pole = (zacatek_pole+ symbol + konec_pole)
-    pole = ukazka_pole
-    return ukazka_pole
+    pole = (zacatek_pole+ symbol + konec_pole)
+    return pole
 
 
 def tah_hrace():
     while():
-        hrac = int(input("kam chces hrat?"))
-        if hrac <= 0:
+        pozice = int(input("kam chces hrat?"))
+        if pozice < 0:
             print("nelze zadat zaporne cislo")
-        elif hrac >= 0:
+        elif pozice >= 0:
             break
         else:
             print("nerozumim zkus to znova")
-    return (hrac, "X")
+    return (pozice)
 
 def Id_piskvorky():
+    
     print()
     return
 
 Id_piskvorky()
-tah_hrace()
 
 
 # zmnena
